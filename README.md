@@ -1,18 +1,18 @@
 # PIMA_Mask-RCNN
-Projet de recherche et implémentation d'un Mask R-CNN sur des images cellulaires.
+Research project and implementation of a Mask R-CNN on cellular images.
 
 ## Images
-Ce dossier contient les images utiliser pour par le modèle.
+This folder contains the images used for the template.
 
 ## Modele
-Le *Modele* contient les fichiers du modèle:
+The *Model* contains the model files:
 
-* `annotations.json` : fichier contenant les informations sur les masques des images du dossier *Images*.
-* `Run_Mask_RCNN_on_cells.ipynb` : jupyter notebook chargeant le modèle le plus récent.
-* `Train_Mask_RCNN_on_cells.ipynb` : jupyter notebook qui entraîne le modèle.
-* `mask_rcnn_object_0005.h5` : modèle entraîné par le jupyter `Train_Mask_RCNN_on_cells.ipynb`.
+* `annotations.json` : file containing information about the masks of the images in the *Images* folder.
+* `Run_Mask_RCNN_on_cells.ipynb` : jupyter notebook loading the most recent model.
+* `Train_Mask_RCNN_on_cells.ipynb` : jupyter notebook that trains the model.
+* `mask_rcnn_object_0005.h5` : model driven by the jupyter `Train_Mask_RCNN_on_cells.ipynb`.
 
 ## Instructions
 
-Pour faciliter les import et l'utilisation des librairies utilisées par les fichiers notebook, il est préférable de charger les notebook sur Google Collab et d'upload les fichiers nécessaires.
-Après avoir upload le fichier `Run_Mask_RCNN_on_cells.ipynb`, upload le modèle entraîné, le fichier `dataset.zip` et le fichier `annotations.json`.
+To facilitate the import and use of the libraries used by the notebook files, it is best to load the notebooks on Google Collab and upload the necessary files.
+After uploading the `Run_Mask_RCNN_on_cells.ipynb` file, upload the trained model, the `dataset.zip` file and the `annotations.json` file.
